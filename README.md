@@ -1,6 +1,11 @@
 # 🧠 Teste de Estágio 
 
-## WebSockets
+## Instruções
+- Realize o git clone deste repositório
+- Responda as perguntas no próprio Readme.md
+- Suba o código no repositório
+- Insira a mensagem retornada do servidor
+- Nos envie o link do seu repositório
 
 ### Parte 1 – Conceito
 
@@ -18,10 +23,6 @@ Você deve criar um pequeno script que se conecta ao **servidor WebSocket** que 
 1. Criar um pequeno código na linguagem que preferir
 2. Estabelecer a conexão com o servidor WebSocket
 3. Ler a mensagem recebida
-4. Faça um **clone deste repositório**
-5. Insira:
-   - A **mensagem que você recebeu** aqui no `README.md`
-   - O **código que você criou** no repositório
   
 URL do servidor: websocket-fh6l.onrender.com
 
