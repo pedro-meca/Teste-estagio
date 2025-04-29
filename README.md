@@ -74,13 +74,13 @@ Entender se você consegue identificar os desafios da comunicação em tempo rea
 
 **1- O que são WebSockets?**
 
-    Websocktes é um protocolo de comunicacao bidirecional, isso permite a troca continua de dados entre cliente 
-    e servidor em tempo real,sua conexão é persistente, permiteindo a 
-    troca de mensagens sem que o cliente fique fazendo requisicoes de constantemente em busca de atualizacoes.
+Websocktes é um protocolo de comunicacao bidirecional, isso permite a troca continua de dados entre cliente 
+e servidor em tempo real,sua conexão é persistente, permiteindo a 
+troca de mensagens sem que o cliente fique fazendo requisicoes de constantemente em busca de atualizacoes.
 
 **2-Como funcionam?**
 
-    Um websocket comeca fazendo um requisicao HTTP para o servidor para estabelecer a 
+Um websocket comeca fazendo um requisicao HTTP para o servidor para estabelecer a 
     conexão,uma vez aceita a comunicação é mantida de forma persistente,
     e as mensagens podem fluir em ambas as direções.
     Quando a conexão é realizada , tanto o cliente quanto o 
@@ -89,7 +89,7 @@ Entender se você consegue identificar os desafios da comunicação em tempo rea
 
 **3-Quando é melhor usar WebSockets em vez de uma API REST tradicional?**
 
-	  É melhor usar Websocket em situacoes que se exige uma 
+ É melhor usar Websocket em situacoes que se exige uma 
      comunicação em tempo real, onde existe uma alta taxa 
      de atualização de dados e interações bidirecionais.
 
@@ -122,11 +122,11 @@ if __name__ == "__main__":
 
 ## Parte 3 - Desafio Teórico:
 
-	1- Como o cenário se trata de troca de mensagem simultaneamente, o ideia seria utilizar 
+1- Como o cenário se trata de troca de mensagem simultaneamente, o ideia seria utilizar 
      Websockets com suporte a canais/salas,pois as trocas de mensagens pode ser feitas de 
      maneira pública ou de maneira privada(usuários específicos).
 	
-	2-Para garantir o envio correto para todos os usuario é utilizar 
+2-Para garantir o envio correto para todos os usuario é utilizar 
      um canal no websocket em que todos os usuários estão inscritos,
      criar um grupo geral.Para enviar a mensagem para um usuário 
      específico a criação de uma tabela/mapa que associe os nomes de 
@@ -138,7 +138,7 @@ if __name__ == "__main__":
      Quando uma mensagem é enviada e o destinatário esta conectado em diversas abas o próprio
      ,o servidor iterará sobre todas as conexões e enviará a mensagem para todas conexões.
 
-	3-Existe a biblioteca Sockt.io e as ferramentes Pusher e Firebase.A biblioteca Sockte.io 
+3-Existe a biblioteca Sockt.io e as ferramentes Pusher e Firebase.A biblioteca Sockte.io 
      fornece comunicação em tempo real com suporte a reconexões automáticas e criação e gerenciamento de salas, 
      tanto públicas quanto privadas.Já a Pusher é mais focado em mensagens em tempo real, 
      notificações e facilita o gerenciamento de canais e eventos em tempo real, ideal para mensagens instantâneas. 
